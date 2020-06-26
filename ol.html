@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wikicodia - ol</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav>
+            <ol>
+                <li><a href="./index.html">HTML</a></li>
+                <li><a href="./head.html">HEAD</a></li>
+                <li><a href="./meta.html">META</a></li>
+                <li><a href="./title.html">TITLE</a></li>
+                <li><a href="./body.html">BODY</a></li>
+                <li><a href="./h.html">H1 A H6</a></li>
+                <li><a href="./p.html">P</a></li>
+                <li><a href="./a.html">A</a></li>
+                <li><a href="./section.html">SECTION</a></li>
+                <li><a href="./nav.html">NAV</a></li>
+                <li><a href="./header.html">HEADER</a></li>
+                <li><a href="./footer.html">FOOTER</a></li>
+                <li><a href="./aside.html">ASIDE</a></li>
+                <li><a href="./img.html">IMG</a></li>
+                <li><a href="./ul.html">UL</a></li>
+                <li><a href="./ol.html">OL</a></li>
+                <li><a href="./div.html">DIV</a></li>
+                <li><a href="./video.html">VIDEO</a></li>
+                <li><a href="./emphases.html">EMPHASES</a></li>
+            </ol>
+        </nav>
+    </header>
+
+    <!-- Content -->
+    <h1>OL</h1>
+    <section>
+        <!-- Descrption -->
+        <article>
+            <strong>Descrption</strong>
+            <p>L'élément HTML <code>&ltol></code> représente une liste ordonnée. 
+                Les éléments d'une telle liste sont généralement affichés avec un indicateur ordinal pouvant prendre la forme de nombres, de lettres, de chiffres romains ou de points. 
+                La mise en forme de la numérotation n'est pas utilisée dans la description HTML mais dans la feuille de style CSS associée grâce à la propriété <i>list-style-type</i>.</p>
+        </article>
+        <!-- Array -->
+        <article>
+            <strong>Tableau de attributs</strong>
+            <table>
+                <thead>
+                    <tr>
+                        <th>reversed</th>
+                        <th>start</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Cet attribut booléen précise que les objets listés par l'élément sont affichés avec un ordre inversé (l'objet le moins important apparaît en première position).</td>
+                        <td>La valeur de cet attribut, un nombre entier, définit l'indice à partir duquel les objets de la liste sont numérotés. Bien que les indices des éléments puissent être des nombres romains ou des lettres la valeur de cet attribut doit être un nombre. 
+                            Ainsi pour commencer la numérotation des éléments avec la lettre « C », il faudra entrer :
+                             <code>&ltol start="3"></code>. Cet attribut a été déprécié en HTML4 mais a été réintroduit en HTML5.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </article><br>
+        <!-- Exemple -->
+        <article>
+            <strong>Exemple</strong>
+            <pre>
+&ltol>
+    &ltli>Premier élément&lt/li>
+    &ltli>Deuxième élément&lt/li>
+    &ltli>Troisième élément&lt/li>
+&lt/ol>
+            </pre>
+        </article>
+        <!-- Result -->
+        <article>
+            <strong>Résultat</strong><br>
+            <ol>
+                <li>Premier élément</li>
+                <li>Deuxième élément</li>
+                <li>Troisième élément</li>
+              </ol>
+        </article>
+    </section>
+    <!-- Footer -->
+    <footer>
+
+    </footer>
+</body>
+</html>

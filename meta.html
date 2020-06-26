@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wikicodia - meta</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav>
+            <ol>
+                <li><a href="./index.html">HTML</a></li>
+                <li><a href="./head.html">HEAD</a></li>
+                <li><a href="./meta.html">META</a></li>
+                <li><a href="./title.html">TITLE</a></li>
+                <li><a href="./body.html">BODY</a></li>
+                <li><a href="./h.html">H1 A H6</a></li>
+                <li><a href="./p.html">P</a></li>
+                <li><a href="./a.html">A</a></li>
+                <li><a href="./section.html">SECTION</a></li>
+                <li><a href="./nav.html">NAV</a></li>
+                <li><a href="./header.html">HEADER</a></li>
+                <li><a href="./footer.html">FOOTER</a></li>
+                <li><a href="./aside.html">ASIDE</a></li>
+                <li><a href="./img.html">IMG</a></li>
+                <li><a href="./ul.html">UL</a></li>
+                <li><a href="./ol.html">OL</a></li>
+                <li><a href="./div.html">DIV</a></li>
+                <li><a href="./video.html">VIDEO</a></li>
+                <li><a href="./emphases.html">EMPHASES</a></li>
+            </ol>
+        </nav>
+    </header>
+
+    <!-- Content -->
+    <h1>META</h1>
+    <section>
+        <!-- Descrption -->
+        <article>
+            <strong>Descrption</strong>
+            <p>L'élément HTML <code>&ltmeta></code> représente toute information de métadonnées qui ne peut pas être représentée par un des éléments (&ltbase>, &ltlink>, &ltscript>, &ltstyle> ou &lttitle>)</p>
+        </article>
+        <!-- Array -->
+        <article>
+            <strong>Tableau de attributs</strong>
+            <table>
+                <thead>
+                    <tr>
+                        <th>charset</th>
+                        <th>name</th>
+                        <th>content</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Cet attribut déclare l'encodage utilisé par la page. Il peut être outrepassé de manière locale en utilisant l'attribut lang d'un élément. 
+                            La valeur de cet attribut est une chaîne de caractères et doit être l'un des noms MIME préférés d'un encodage comme spécifié par l'IANA.</td>
+                        <td>Cet attribut définit le nom d'un métadonnée au niveau du document. Il ne doit pas être utilisé si l'un des attributs  itemprop, http-equiv ou charset est utilisé.
+                            Le nom de la métadonnée document est associé à une valeur contenue dans l'attribut content.</td>
+                        <td>Cet attribut fournit la valeur associée avec l'attribut http-equiv ou l'attribut name suivant le contexte utilisé.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </article><br>
+        <!-- Exemple -->
+        <article>
+            <strong>Exemple</strong>
+            <pre>
+&lt!-- En HTML5 -->
+&ltmeta charset="utf-8">
+
+&lt!-- Rediriger la page après 3 secondes -->
+&ltmeta http-equiv="refresh" content="3;url=http://www.mozilla.org">
+            </pre>
+        </article>
+        <!-- Result -->
+        <article>
+            <strong>Résultat</strong>
+            <p><i>Aucun résultat visible</i></p>
+        </article>
+    </section>
+    <!-- Footer -->
+    <footer>
+
+    </footer>
+</body>
+</html>
